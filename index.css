@@ -1,0 +1,65 @@
+/* Загальні стилі для секцій */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Стилі для таймера */
+.timer {
+  background-color: #f9f9f9;
+}
+
+#task1 {
+  padding: 10px;
+}
+
+/* Стилі для анімації елементів */
+.animation {
+  background-color: #e9f7fd;
+  height: 300px;
+  overflow: hidden;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s ease-in-out;
+}
+
+/* Стилі для інтерактивної гри */
+.game {
+  background-color: #e7f9e7;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.target {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Стилі для контролю часу */
+.control-time {
+  background-color: #fff3cd;
+}
